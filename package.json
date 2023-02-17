@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "HOST=0.0.0.0 PORT=2221 nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider;HOST=localhost nuxt",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider;HOST=localhost nuxt build",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider;HOST=localhost nuxt start",
+    "generate": "export NODE_OPTIONS=--openssl-legacy-provider;HOST=localhost nuxt generate"
   },
   "dependencies": {
     "@aceforth/nuxt-optimized-images": "^1.4.0",

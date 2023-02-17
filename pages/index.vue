@@ -1831,7 +1831,7 @@ export default {
         urls,
         key,
         note,
-        uid: `EnBizCard-${randomNumber}`,
+        uid: `mydigitalcardonline-${randomNumber}`,
       }
     },
   },

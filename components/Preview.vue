@@ -22,10 +22,10 @@
           <meta v-if="!PreviewMode" name="robots" content="noindex, nofollow" />
           <meta
             name="author"
-            content="EnBizCard - An Open-Source Digital Business Card Generator"
+            content="mydigitalcardonline"
           />
-          <meta name="url" content="https://enbizcard.vishnuraghav.com/" />
-          <meta name="designer" content="Vishnu Raghav" />
+          <meta name="url" content="https://mydigitalcardonline.com/" />
+          <meta name="designer" content="mydigitalcardonline" />
           <meta
             property="og:title"
             :content="`${getFullname}'s Digital Business Card`"
@@ -346,13 +346,13 @@
             :style="{ backgroundColor: `${colors.mainBg.color}` }"
             class="textColor"
           >
-            Created with
+            Created by
             <a
               class="textColor"
-              href="https://enbizcard.vishnuraghav.com/"
+              href="https://mydigitalcardonline.com/"
               target="_blank"
               rel="noopener noreferrer"
-              >EnBizCard</a
+              >mydigitalcardonline</a
             >
           </footer>
         </body>

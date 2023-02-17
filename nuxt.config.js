@@ -17,17 +17,17 @@ export default {
     ogType: 'website',
     ogImage: '/maskable_512.png',
     // ogUrl: false,
-    ogTitle: 'EnBizCard - An Open-Source Digital Business Card Generator',
+    ogTitle: 'mydigiatalcardonline - Digital Business Card Generator',
     ogDescription:
-      'EnBizCard helps you create beautiful, responsive HTML-based digital business cards that can be hosted on your website.',
-    ogSiteName: 'EnBizCard - An Open-Source Digital Business Card Generator',
+      'We create beautiful, responsive HTML-based digital business cards.',
+    ogSiteName: 'mydigiatalcardonline - Digital Business Card Generator',
     theme_color: '#111827',
-    author: 'Vishnu Raghav',
+    author: 'mydigitalcardonline',
     lang: 'en',
-    name: 'EnBizCard - An Open-Source Digital Business Card Generator',
+    name: 'mydigiatalcardonline - Digital Business Card Generator',
   },
   head: {
-    title: 'EnBizCard - An Open-Source Digital Business Card Generator',
+    title: 'mydigiatalcardonline - Digital Business Card Generator',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -35,7 +35,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'EnBizCard helps you create beautiful, responsive HTML-based digital business cards that can be hosted on your website.',
+          'We create beautiful, responsive HTML-based digital business cards.',
       },
       {
         hid: 'msapplication-TileColor',
@@ -80,8 +80,8 @@ export default {
     script: [{ src: '/qrcode.min.js' }],
   },
   manifest: {
-    name: 'EnBizCard - An Open-Source Digital Business Card Generator',
-    short_name: 'EnBizCard',
+    name: 'mydigiatalcardonline - Digital Business Card Generator',
+    short_name: 'mydigitalcardonline',
     start_url: '/',
     display: 'standalone',
     theme_color: '#111827',
