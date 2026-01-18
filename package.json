@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "export NODE_OPTIONS=--openssl-legacy-provider;HOST=localhost nuxt",
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider;HOST=localhost nuxt build",
-    "start": "export NODE_OPTIONS=--openssl-legacy-provider;HOST=localhost nuxt start",
-    "generate": "export NODE_OPTIONS=--openssl-legacy-provider;HOST=localhost nuxt generate"
+    "dev": "HOST=localhost nuxt",
+    "build": "HOST=localhost nuxt build",
+    "start": "HOST=loalhost nuxt start",
+    "generate": "HOST=localhost nuxt generate"
   },
   "engines": {
     "node": ">=16 <18"
